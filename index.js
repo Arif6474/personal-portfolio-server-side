@@ -23,7 +23,7 @@ const client = new MongoClient(uri, {
 async function run() {
     try {
       await client.connect();
-      console.log("mongodb connected");
+      console.log("mongodb connected and");
     const projectsCollection = client.db("arif-islam").collection("projects")
     
     // get projects
